@@ -108,13 +108,13 @@
     "listen_port": 8080,
     "verbosity": "error",
     "enable_openapi": false,
-    "jwt_secret_key": "1f47b0910f546c5e09034e79aec86a499dbb919b3fd9496ebf3c4624c33ded08",
-    "ws_token": "LTQ6bv0wttdB0eYYkWMCh33cR1D5Y_SFig",
+    "jwt_secret_key": "",
+    "ws_token": "",
     "CORS_origins": [],
     "username": "test",
     "password": "test"
   },
-  "bot_name": "ActionZone",
+  "bot_name": "test",
   "initial_state": "running",
   "force_entry_enable": false,
   "internals": {

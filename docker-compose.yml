@@ -19,7 +19,7 @@ services:
     #   context: .
     #   dockerfile: "./docker/Dockerfile.custom"
     # restart: unless-stopped
-    container_name: ActionZone
+    container_name: test # A modifier avec le nom de la strat
     volumes:
       - "./user_data:/freqtrade/user_data"
     # Expose api on port 8080 (localhost only)
@@ -32,36 +32,37 @@ services:
       backtesting
       --config user_data/config.json
       --timerange 20200511-20240420
-      --timeframe 1d
-      --strategy ActionZone
+      --timeframe 4h
+      --strategy AverageStrategy
+
 
 
 # # Pour importer les données
       # download-data
       # --timerange 20200511-20240420
-      # --timeframe 8h
+      # --timeframe 1d
       # --config /freqtrade/user_data/config.json
 
 # # Pour les backtest
       # backtesting
       # --config user_data/config.json
       # --timerange 20200511-20240420
-      # --timeframe 8h
+      # --timeframe 1d
       # --strategy ActionZone
 
 # # Pour HyperOpt
 #       hyperopt
 #       --config /freqtrade/user_data/config.json
 #       --min-trade 400
-#       --timeframe 1h
+#       --timeframe 15m
 #       --hyperopt-loss MaxDrawDownHyperOptLoss
 #       --timerange 20200511-20240420
 #       --spaces buy sell stoploss trailing -j 8 -e 500
-#       --strategy ActionZone
+#       --strategy adxbbrsi2
 
 # # Pour lancer le trade
-#       trade
-#       --logfile /freqtrade/user_data/logs/freqtrade.log
-#       --db-url sqlite:////freqtrade/user_data/tradesv3.sqlite
-#       --config /freqtrade/user_data/config.json
-#       --strategy ActionZone
+      # trade
+      # --logfile /freqtrade/user_data/logs/freqtrade.log
+      # --db-url sqlite:////freqtrade/user_data/tradesv3.sqlite
+      # --config /freqtrade/user_data/config.json
+      # --strategy adxbbrsi2

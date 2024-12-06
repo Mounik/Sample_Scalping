@@ -1,0 +1,475 @@
+2024-12-03 00:01:07,923 - freqtrade.loggers - INFO - Verbosity set to 0
+2024-12-03 00:01:07,924 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2024-12-03 00:01:07,924 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2024-12-03 00:01:07,924 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2024-12-03 00:01:07,925 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2024-12-03 00:01:07,925 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 20 ...
+2024-12-03 00:01:08,384 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2024-12-03 00:01:08,385 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2024-12-03 00:01:08,386 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2024-12-03 00:01:08,397 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2024-12-03 00:01:08,397 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2024-12-03 00:01:08,573 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy adx_opt_strat from '/freqtrade/user_data/strategies/adx_opt_strat.py'...
+2024-12-03 00:01:08,574 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2024-12-03 00:01:08,574 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2024-12-03 00:01:08,574 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2024-12-03 00:01:08,575 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2024-12-03 00:01:08,575 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 20.
+2024-12-03 00:01:08,575 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.0692, '7': 0.02682, '10': 0.00771, '32': 0}
+2024-12-03 00:01:08,575 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 15m
+2024-12-03 00:01:08,576 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.32766
+2024-12-03 00:01:08,576 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: True
+2024-12-03 00:01:08,576 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive: 0.32634
+2024-12-03 00:01:08,576 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.34487
+2024-12-03 00:01:08,576 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: True
+2024-12-03 00:01:08,577 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2024-12-03 00:01:08,577 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2024-12-03 00:01:08,577 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2024-12-03 00:01:08,577 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2024-12-03 00:01:08,577 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2024-12-03 00:01:08,578 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2024-12-03 00:01:08,578 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2024-12-03 00:01:08,578 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2024-12-03 00:01:08,578 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2024-12-03 00:01:08,579 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2024-12-03 00:01:08,579 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2024-12-03 00:01:08,579 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2024-12-03 00:01:08,579 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2024-12-03 00:01:08,580 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2024-12-03 00:01:08,580 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2024-12-03 00:01:08,580 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2024-12-03 00:01:08,580 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 20
+2024-12-03 00:01:08,580 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2024-12-03 00:01:08,583 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2024-12-03 00:01:08,583 - freqtrade.exchange.exchange - INFO - Using CCXT 4.4.33
+2024-12-03 00:01:08,613 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2024-12-03 00:01:10,929 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2024-12-03 00:01:11,234 - freqtrade.wallets - INFO - Wallets synced.
+2024-12-03 00:01:11,308 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2024-12-03 00:01:11,527 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2024-12-03 00:01:11,528 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - `jwt_secret_key` seems to be default.Others may be able to log into your bot.
+2024-12-03 00:01:11,528 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2024-12-03 00:01:11,556 - uvicorn.error - INFO - Started server process [1]
+2024-12-03 00:01:11,556 - uvicorn.error - INFO - Waiting for application startup.
+2024-12-03 00:01:11,557 - uvicorn.error - INFO - Application startup complete.
+2024-12-03 00:01:11,557 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2024-12-03 00:01:11,567 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2024-12-03 00:01:11,708 - freqtrade.plugins.pairlistmanager - WARNING - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2024-12-03 00:01:11,709 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 49 pairs: ['BTC/USDT', 'ETH/USDT', 'XRP/USDT', 'SOL/USDT', 'DOGE/USDT', 'ADA/USDT', 'AVAX/USDT', 'TRX/USDT', 'SHIB/USDT', 'TON/USDT', 'XLM/USDT', 'LINK/USDT', 'DOT/USDT', 'HBAR/USDT', 'BCH/USDT', 'SUI/USDT', 'LTC/USDT', 'PEPE/USDT', 'UNI/USDT', 'NEAR/USDT', 'APT/USDT', 'ICP/USDT', 'POL/USDT', 'ETC/USDT', 'ALGO/USDT', 'FIL/USDT', 'RENDER/USDT', 'FET/USDT', 'ARB/USDT', 'ATOM/USDT', 'AAVE/USDT', 'STX/USDT', 'IMX/USDT', 'OM/USDT', 'TIA/USDT', 'BONK/USDT', 'OP/USDT', 'WIF/USDT', 'INJ/USDT', 'THETA/USDT', 'FTM/USDT', 'GRT/USDT', 'WLD/USDT', 'FLOKI/USDT', 'KAIA/USDT', 'PYTH/USDT', 'EOS/USDT', 'XTZ/USDT', 'MKR/USDT']
+2024-12-03 00:01:11,710 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2024-12-03 00:01:11,710 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2024-12-03 00:01:11,711 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2024-12-03 00:01:11,711 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2024-12-03 00:01:11,712 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2024-12-03 00:01:11,712 - freqtrade.worker - INFO - Changing state to: RUNNING
+2024-12-03 00:01:11,736 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2024-12-03 00:01:11,736 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'0': 0.0692, '7': 0.02682, '10': 0.00771, '32': 0}`\n*Trailing Stoploss:* `-0.32766`\n*Position adjustment:* `Off`\n*Timeframe:* `15m`\n*Strategy:* `adx_opt_strat`"}
+2024-12-03 00:01:11,737 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2024-12-03 00:01:16,741 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.11-dev-f31b26b1', state='RUNNING'
+2024-12-03 00:02:01,356 - freqtrade.exchange.exchange_ws - INFO - Resetting WS connections.
+2024-12-03 00:02:01,358 - freqtrade.exchange.exchange_ws - INFO - OM/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,358 - freqtrade.exchange.exchange_ws - INFO - OP/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,359 - freqtrade.exchange.exchange_ws - INFO - PYTH/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,359 - freqtrade.exchange.exchange_ws - INFO - FLOKI/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,359 - freqtrade.exchange.exchange_ws - INFO - AAVE/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,360 - freqtrade.exchange.exchange_ws - INFO - DOT/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,360 - freqtrade.exchange.exchange_ws - INFO - NEAR/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,360 - freqtrade.exchange.exchange_ws - INFO - FTM/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,361 - freqtrade.exchange.exchange_ws - INFO - FET/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,361 - freqtrade.exchange.exchange_ws - INFO - WIF/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,361 - freqtrade.exchange.exchange_ws - INFO - INJ/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,361 - freqtrade.exchange.exchange_ws - INFO - RENDER/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,362 - freqtrade.exchange.exchange_ws - INFO - THETA/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,362 - freqtrade.exchange.exchange_ws - INFO - SHIB/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,362 - freqtrade.exchange.exchange_ws - INFO - XLM/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,362 - freqtrade.exchange.exchange_ws - INFO - BCH/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,363 - freqtrade.exchange.exchange_ws - INFO - ETH/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,363 - freqtrade.exchange.exchange_ws - INFO - ICP/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,363 - freqtrade.exchange.exchange_ws - INFO - GRT/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,363 - freqtrade.exchange.exchange_ws - INFO - TIA/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,364 - freqtrade.exchange.exchange_ws - INFO - XTZ/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,364 - freqtrade.exchange.exchange_ws - INFO - ETC/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,364 - freqtrade.exchange.exchange_ws - INFO - ADA/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,364 - freqtrade.exchange.exchange_ws - INFO - MKR/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,365 - freqtrade.exchange.exchange_ws - INFO - IMX/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,365 - freqtrade.exchange.exchange_ws - INFO - ARB/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,365 - freqtrade.exchange.exchange_ws - INFO - PEPE/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,366 - freqtrade.exchange.exchange_ws - INFO - APT/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,366 - freqtrade.exchange.exchange_ws - INFO - UNI/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,366 - freqtrade.exchange.exchange_ws - INFO - KAIA/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,367 - freqtrade.exchange.exchange_ws - INFO - EOS/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,367 - freqtrade.exchange.exchange_ws - INFO - ATOM/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,367 - freqtrade.exchange.exchange_ws - INFO - ALGO/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,367 - freqtrade.exchange.exchange_ws - INFO - DOGE/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,368 - freqtrade.exchange.exchange_ws - INFO - TON/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,368 - freqtrade.exchange.exchange_ws - INFO - TRX/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,368 - freqtrade.exchange.exchange_ws - INFO - LINK/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,368 - freqtrade.exchange.exchange_ws - INFO - WLD/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,369 - freqtrade.exchange.exchange_ws - INFO - BTC/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,369 - freqtrade.exchange.exchange_ws - INFO - BONK/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,369 - freqtrade.exchange.exchange_ws - INFO - AVAX/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,369 - freqtrade.exchange.exchange_ws - INFO - STX/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,370 - freqtrade.exchange.exchange_ws - INFO - XRP/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,370 - freqtrade.exchange.exchange_ws - INFO - FIL/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,370 - freqtrade.exchange.exchange_ws - INFO - POL/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,371 - freqtrade.exchange.exchange_ws - INFO - LTC/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,371 - freqtrade.exchange.exchange_ws - INFO - SUI/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,371 - freqtrade.exchange.exchange_ws - INFO - HBAR/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:01,371 - freqtrade.exchange.exchange_ws - INFO - SOL/USDT, 15m, spot - Task finished - done
+2024-12-03 00:02:19,733 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.11-dev-f31b26b1', state='RUNNING'
+2024-12-03 00:02:29,236 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2024-12-03 00:02:29,236 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2024-12-03 00:02:29,237 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2024-12-03 00:02:29,238 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2024-12-03 00:02:29,238 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2024-12-03 00:02:29,239 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2024-12-03 00:02:29,331 - uvicorn.error - INFO - Shutting down
+2024-12-03 00:02:29,433 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-12-03 00:02:29,435 - uvicorn.error - INFO - Application shutdown complete.
+2024-12-03 00:02:29,436 - uvicorn.error - INFO - Finished server process [1]
+2024-12-03 00:02:29,439 - freqtrade.exchange.exchange_ws - INFO - Resetting WS connections.
+2024-12-03 00:02:30,117 - freqtrade - INFO - SIGINT received, aborting ...
+2024-12-03 00:02:52,073 - freqtrade.loggers - INFO - Verbosity set to 0
+2024-12-03 00:02:52,074 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2024-12-03 00:02:52,074 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2024-12-03 00:02:52,074 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2024-12-03 00:02:52,075 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2024-12-03 00:02:52,075 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 20 ...
+2024-12-03 00:02:52,515 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2024-12-03 00:02:52,516 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2024-12-03 00:02:52,517 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2024-12-03 00:02:52,527 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2024-12-03 00:02:52,528 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2024-12-03 00:02:52,699 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy adx_opt_strat from '/freqtrade/user_data/strategies/adx_opt_strat.py'...
+2024-12-03 00:02:52,700 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2024-12-03 00:02:52,701 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2024-12-03 00:02:52,701 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2024-12-03 00:02:52,701 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2024-12-03 00:02:52,702 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 20.
+2024-12-03 00:02:52,702 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.0692, '7': 0.02682, '10': 0.00771, '32': 0}
+2024-12-03 00:02:52,702 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1m
+2024-12-03 00:02:52,702 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.32766
+2024-12-03 00:02:52,702 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: True
+2024-12-03 00:02:52,703 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive: 0.32634
+2024-12-03 00:02:52,703 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.34487
+2024-12-03 00:02:52,703 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: True
+2024-12-03 00:02:52,703 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2024-12-03 00:02:52,704 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2024-12-03 00:02:52,704 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2024-12-03 00:02:52,704 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2024-12-03 00:02:52,704 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2024-12-03 00:02:52,704 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2024-12-03 00:02:52,705 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2024-12-03 00:02:52,705 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2024-12-03 00:02:52,705 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2024-12-03 00:02:52,705 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2024-12-03 00:02:52,705 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2024-12-03 00:02:52,706 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2024-12-03 00:02:52,706 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2024-12-03 00:02:52,706 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2024-12-03 00:02:52,706 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2024-12-03 00:02:52,706 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2024-12-03 00:02:52,707 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 20
+2024-12-03 00:02:52,707 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2024-12-03 00:02:52,710 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2024-12-03 00:02:52,710 - freqtrade.exchange.exchange - INFO - Using CCXT 4.4.33
+2024-12-03 00:02:52,739 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2024-12-03 00:02:55,048 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2024-12-03 00:02:55,315 - freqtrade.wallets - INFO - Wallets synced.
+2024-12-03 00:02:55,378 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2024-12-03 00:02:55,596 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2024-12-03 00:02:55,596 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - `jwt_secret_key` seems to be default.Others may be able to log into your bot.
+2024-12-03 00:02:55,597 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2024-12-03 00:02:55,611 - uvicorn.error - INFO - Started server process [1]
+2024-12-03 00:02:55,611 - uvicorn.error - INFO - Waiting for application startup.
+2024-12-03 00:02:55,612 - uvicorn.error - INFO - Application startup complete.
+2024-12-03 00:02:55,613 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2024-12-03 00:02:55,622 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2024-12-03 00:02:55,763 - freqtrade.plugins.pairlistmanager - WARNING - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2024-12-03 00:02:55,763 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 49 pairs: ['BTC/USDT', 'ETH/USDT', 'XRP/USDT', 'SOL/USDT', 'DOGE/USDT', 'ADA/USDT', 'AVAX/USDT', 'TRX/USDT', 'SHIB/USDT', 'TON/USDT', 'XLM/USDT', 'LINK/USDT', 'DOT/USDT', 'HBAR/USDT', 'BCH/USDT', 'SUI/USDT', 'LTC/USDT', 'PEPE/USDT', 'UNI/USDT', 'NEAR/USDT', 'APT/USDT', 'ICP/USDT', 'POL/USDT', 'ETC/USDT', 'ALGO/USDT', 'FIL/USDT', 'RENDER/USDT', 'FET/USDT', 'ARB/USDT', 'ATOM/USDT', 'AAVE/USDT', 'STX/USDT', 'IMX/USDT', 'OM/USDT', 'TIA/USDT', 'BONK/USDT', 'OP/USDT', 'WIF/USDT', 'INJ/USDT', 'THETA/USDT', 'FTM/USDT', 'GRT/USDT', 'WLD/USDT', 'FLOKI/USDT', 'KAIA/USDT', 'PYTH/USDT', 'EOS/USDT', 'XTZ/USDT', 'MKR/USDT']
+2024-12-03 00:02:55,764 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2024-12-03 00:02:55,765 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2024-12-03 00:02:55,765 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2024-12-03 00:02:55,766 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2024-12-03 00:02:55,766 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2024-12-03 00:02:55,766 - freqtrade.worker - INFO - Changing state to: RUNNING
+2024-12-03 00:02:55,793 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2024-12-03 00:02:55,793 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'0': 0.0692, '7': 0.02682, '10': 0.00771, '32': 0}`\n*Trailing Stoploss:* `-0.32766`\n*Position adjustment:* `Off`\n*Timeframe:* `1m`\n*Strategy:* `adx_opt_strat`"}
+2024-12-03 00:02:55,794 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2024-12-03 00:03:01,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.11-dev-f31b26b1', state='RUNNING'
+2024-12-03 00:03:01,142 - freqtrade.exchange.exchange - INFO - Failed to reuse watch SHIB/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,143 - freqtrade.exchange.exchange - INFO - Failed to reuse watch THETA/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,143 - freqtrade.exchange.exchange - INFO - Failed to reuse watch IMX/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,144 - freqtrade.exchange.exchange - INFO - Failed to reuse watch BONK/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,145 - freqtrade.exchange.exchange - INFO - Failed to reuse watch AAVE/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,146 - freqtrade.exchange.exchange - INFO - Failed to reuse watch SOL/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,146 - freqtrade.exchange.exchange - INFO - Failed to reuse watch DOT/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,147 - freqtrade.exchange.exchange - INFO - Failed to reuse watch AVAX/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,147 - freqtrade.exchange.exchange - INFO - Failed to reuse watch BCH/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,148 - freqtrade.exchange.exchange - INFO - Failed to reuse watch ETH/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,148 - freqtrade.exchange.exchange - INFO - Failed to reuse watch BTC/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,149 - freqtrade.exchange.exchange - INFO - Failed to reuse watch UNI/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,149 - freqtrade.exchange.exchange - INFO - Failed to reuse watch STX/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,150 - freqtrade.exchange.exchange - INFO - Failed to reuse watch OM/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,150 - freqtrade.exchange.exchange - INFO - Failed to reuse watch TRX/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,151 - freqtrade.exchange.exchange - INFO - Failed to reuse watch XTZ/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,151 - freqtrade.exchange.exchange - INFO - Failed to reuse watch TIA/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,152 - freqtrade.exchange.exchange - INFO - Failed to reuse watch POL/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,152 - freqtrade.exchange.exchange - INFO - Failed to reuse watch SUI/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,153 - freqtrade.exchange.exchange - INFO - Failed to reuse watch MKR/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,153 - freqtrade.exchange.exchange - INFO - Failed to reuse watch RENDER/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,154 - freqtrade.exchange.exchange - INFO - Failed to reuse watch ARB/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,154 - freqtrade.exchange.exchange - INFO - Failed to reuse watch KAIA/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,155 - freqtrade.exchange.exchange - INFO - Failed to reuse watch ATOM/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,155 - freqtrade.exchange.exchange - INFO - Failed to reuse watch XLM/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,156 - freqtrade.exchange.exchange - INFO - Failed to reuse watch LINK/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,156 - freqtrade.exchange.exchange - INFO - Failed to reuse watch XRP/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,157 - freqtrade.exchange.exchange - INFO - Failed to reuse watch ICP/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,157 - freqtrade.exchange.exchange - INFO - Failed to reuse watch OP/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,158 - freqtrade.exchange.exchange - INFO - Failed to reuse watch DOGE/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,158 - freqtrade.exchange.exchange - INFO - Failed to reuse watch APT/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,159 - freqtrade.exchange.exchange - INFO - Failed to reuse watch ALGO/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,159 - freqtrade.exchange.exchange - INFO - Failed to reuse watch GRT/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,159 - freqtrade.exchange.exchange - INFO - Failed to reuse watch ADA/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,160 - freqtrade.exchange.exchange - INFO - Failed to reuse watch WIF/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,160 - freqtrade.exchange.exchange - INFO - Failed to reuse watch INJ/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:01,161 - freqtrade.exchange.exchange - INFO - Failed to reuse watch FET/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:06,170 - freqtrade.exchange.exchange - INFO - Failed to reuse watch SUI/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:06,171 - freqtrade.exchange.exchange - INFO - Failed to reuse watch MKR/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:06,171 - freqtrade.exchange.exchange - INFO - Failed to reuse watch ATOM/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:06,172 - freqtrade.exchange.exchange - INFO - Failed to reuse watch XLM/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:06,172 - freqtrade.exchange.exchange - INFO - Failed to reuse watch LINK/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:06,173 - freqtrade.exchange.exchange - INFO - Failed to reuse watch XRP/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:06,173 - freqtrade.exchange.exchange - INFO - Failed to reuse watch ICP/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:06,174 - freqtrade.exchange.exchange - INFO - Failed to reuse watch DOGE/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:06,174 - freqtrade.exchange.exchange - INFO - Failed to reuse watch APT/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:06,175 - freqtrade.exchange.exchange - INFO - Failed to reuse watch ADA/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:06,175 - freqtrade.exchange.exchange - INFO - Failed to reuse watch WIF/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:06,176 - freqtrade.exchange.exchange - INFO - Failed to reuse watch INJ/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:03:06,176 - freqtrade.exchange.exchange - INFO - Failed to reuse watch FET/USDT, 1m, False, 1733184180000, 0, 2024-12-03T00:03:00, 1970-01-01T00:00:00 
+2024-12-03 00:04:06,013 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.11-dev-f31b26b1', state='RUNNING'
+2024-12-03 00:05:01,153 - freqtrade.exchange.exchange_ws - INFO - Removing ('BONK/USDT', '1m', <CandleType.SPOT: 'spot'>) from websocket watchlist.
+2024-12-03 00:05:01,153 - freqtrade.exchange.exchange_ws - INFO - Removing ('DOT/USDT', '1m', <CandleType.SPOT: 'spot'>) from websocket watchlist.
+2024-12-03 00:05:01,153 - freqtrade.exchange.exchange_ws - INFO - Removing ('AVAX/USDT', '1m', <CandleType.SPOT: 'spot'>) from websocket watchlist.
+2024-12-03 00:05:01,154 - freqtrade.exchange.exchange_ws - INFO - Removing ('BCH/USDT', '1m', <CandleType.SPOT: 'spot'>) from websocket watchlist.
+2024-12-03 00:05:01,154 - freqtrade.exchange.exchange_ws - INFO - Removing ('ETH/USDT', '1m', <CandleType.SPOT: 'spot'>) from websocket watchlist.
+2024-12-03 00:05:01,155 - freqtrade.exchange.exchange_ws - INFO - Removing ('BTC/USDT', '1m', <CandleType.SPOT: 'spot'>) from websocket watchlist.
+2024-12-03 00:05:01,155 - freqtrade.exchange.exchange_ws - INFO - Removing ('UNI/USDT', '1m', <CandleType.SPOT: 'spot'>) from websocket watchlist.
+2024-12-03 00:05:01,156 - freqtrade.exchange.exchange_ws - INFO - Removing ('STX/USDT', '1m', <CandleType.SPOT: 'spot'>) from websocket watchlist.
+2024-12-03 00:05:01,156 - freqtrade.exchange.exchange_ws - INFO - Removing ('OM/USDT', '1m', <CandleType.SPOT: 'spot'>) from websocket watchlist.
+2024-12-03 00:05:01,156 - freqtrade.exchange.exchange_ws - INFO - Removing ('TRX/USDT', '1m', <CandleType.SPOT: 'spot'>) from websocket watchlist.
+2024-12-03 00:05:01,157 - freqtrade.exchange.exchange_ws - INFO - Removing ('XTZ/USDT', '1m', <CandleType.SPOT: 'spot'>) from websocket watchlist.
+2024-12-03 00:05:01,157 - freqtrade.exchange.exchange_ws - INFO - Removing ('TIA/USDT', '1m', <CandleType.SPOT: 'spot'>) from websocket watchlist.
+2024-12-03 00:05:01,158 - freqtrade.exchange.exchange_ws - INFO - Removal done: new watch list (37)
+2024-12-03 00:05:01,159 - freqtrade.exchange.exchange - INFO - Failed to reuse watch BONK/USDT, 1m, True, 1733184300000, 1733184300346, 2024-12-03T00:05:00, 2024-12-03T00:05:00 
+2024-12-03 00:05:01,160 - freqtrade.exchange.exchange - INFO - Failed to reuse watch DOT/USDT, 1m, True, 1733184300000, 1733184300338, 2024-12-03T00:05:00, 2024-12-03T00:05:00 
+2024-12-03 00:05:01,161 - freqtrade.exchange.exchange - INFO - Failed to reuse watch AVAX/USDT, 1m, True, 1733184300000, 1733184300359, 2024-12-03T00:05:00, 2024-12-03T00:05:00 
+2024-12-03 00:05:01,161 - freqtrade.exchange.exchange - INFO - Failed to reuse watch BCH/USDT, 1m, True, 1733184300000, 1733184300350, 2024-12-03T00:05:00, 2024-12-03T00:05:00 
+2024-12-03 00:05:01,162 - freqtrade.exchange.exchange - INFO - Failed to reuse watch ETH/USDT, 1m, True, 1733184300000, 1733184300364, 2024-12-03T00:05:00, 2024-12-03T00:05:00 
+2024-12-03 00:05:01,162 - freqtrade.exchange.exchange - INFO - Failed to reuse watch BTC/USDT, 1m, True, 1733184300000, 1733184300355, 2024-12-03T00:05:00, 2024-12-03T00:05:00 
+2024-12-03 00:05:01,163 - freqtrade.exchange.exchange - INFO - Failed to reuse watch UNI/USDT, 1m, True, 1733184300000, 1733184300350, 2024-12-03T00:05:00, 2024-12-03T00:05:00 
+2024-12-03 00:05:01,164 - freqtrade.exchange.exchange - INFO - Failed to reuse watch STX/USDT, 1m, True, 1733184300000, 1733184300349, 2024-12-03T00:05:00, 2024-12-03T00:05:00 
+2024-12-03 00:05:01,164 - freqtrade.exchange.exchange - INFO - Failed to reuse watch OM/USDT, 1m, True, 1733184300000, 1733184300350, 2024-12-03T00:05:00, 2024-12-03T00:05:00 
+2024-12-03 00:05:01,165 - freqtrade.exchange.exchange - INFO - Failed to reuse watch TRX/USDT, 1m, True, 1733184300000, 1733184300364, 2024-12-03T00:05:00, 2024-12-03T00:05:00 
+2024-12-03 00:05:01,165 - freqtrade.exchange.exchange - INFO - Failed to reuse watch XTZ/USDT, 1m, True, 1733184300000, 1733184300355, 2024-12-03T00:05:00, 2024-12-03T00:05:00 
+2024-12-03 00:05:01,166 - freqtrade.exchange.exchange - INFO - Failed to reuse watch TIA/USDT, 1m, True, 1733184300000, 1733184300360, 2024-12-03T00:05:00, 2024-12-03T00:05:00 
+2024-12-03 00:05:06,016 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.11-dev-f31b26b1', state='RUNNING'
+2024-12-03 00:06:06,017 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.11-dev-f31b26b1', state='RUNNING'
+2024-12-03 00:07:01,143 - freqtrade.exchange.exchange_ws - INFO - Removing ('BONK/USDT', '1m', <CandleType.SPOT: 'spot'>) from websocket watchlist.
+2024-12-03 00:07:01,144 - freqtrade.exchange.exchange_ws - INFO - Removing ('ETH/USDT', '1m', <CandleType.SPOT: 'spot'>) from websocket watchlist.
+2024-12-03 00:07:01,144 - freqtrade.exchange.exchange_ws - INFO - Removing ('XTZ/USDT', '1m', <CandleType.SPOT: 'spot'>) from websocket watchlist.
+2024-12-03 00:07:01,145 - freqtrade.exchange.exchange_ws - INFO - Removal done: new watch list (46)
+2024-12-03 00:07:01,146 - freqtrade.exchange.exchange - INFO - Failed to reuse watch BONK/USDT, 1m, True, 1733184420000, 1733184420627, 2024-12-03T00:07:00, 2024-12-03T00:07:00 
+2024-12-03 00:07:01,148 - freqtrade.exchange.exchange - INFO - Failed to reuse watch ETH/USDT, 1m, True, 1733184420000, 1733184420638, 2024-12-03T00:07:00, 2024-12-03T00:07:00 
+2024-12-03 00:07:01,149 - freqtrade.exchange.exchange - INFO - Failed to reuse watch XTZ/USDT, 1m, True, 1733184420000, 1733184420637, 2024-12-03T00:07:00, 2024-12-03T00:07:00 
+2024-12-03 00:07:11,020 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.11-dev-f31b26b1', state='RUNNING'
+2024-12-03 00:07:50,935 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2024-12-03 00:07:50,936 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2024-12-03 00:07:50,936 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2024-12-03 00:07:50,937 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2024-12-03 00:07:50,938 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2024-12-03 00:07:50,938 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2024-12-03 00:07:50,951 - uvicorn.error - INFO - Shutting down
+2024-12-03 00:07:51,054 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-12-03 00:07:51,056 - uvicorn.error - INFO - Application shutdown complete.
+2024-12-03 00:07:51,057 - uvicorn.error - INFO - Finished server process [1]
+2024-12-03 00:07:51,061 - freqtrade.exchange.exchange_ws - INFO - Resetting WS connections.
+2024-12-03 00:07:51,063 - freqtrade.exchange.exchange_ws - INFO - ICP/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,063 - freqtrade.exchange.exchange_ws - INFO - THETA/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,064 - freqtrade.exchange.exchange_ws - INFO - DOT/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,064 - freqtrade.exchange.exchange_ws - INFO - TON/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,064 - freqtrade.exchange.exchange_ws - INFO - POL/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,065 - freqtrade.exchange.exchange_ws - INFO - OP/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,065 - freqtrade.exchange.exchange_ws - INFO - IMX/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,065 - freqtrade.exchange.exchange_ws - INFO - AVAX/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,066 - freqtrade.exchange.exchange_ws - INFO - EOS/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,066 - freqtrade.exchange.exchange_ws - INFO - SUI/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,066 - freqtrade.exchange.exchange_ws - INFO - DOGE/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,067 - freqtrade.exchange.exchange_ws - INFO - BONK/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,067 - freqtrade.exchange.exchange_ws - INFO - BCH/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,067 - freqtrade.exchange.exchange_ws - INFO - AAVE/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,068 - freqtrade.exchange.exchange_ws - INFO - MKR/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,068 - freqtrade.exchange.exchange_ws - INFO - APT/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,068 - freqtrade.exchange.exchange_ws - INFO - ETH/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,068 - freqtrade.exchange.exchange_ws - INFO - PYTH/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,069 - freqtrade.exchange.exchange_ws - INFO - RENDER/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,069 - freqtrade.exchange.exchange_ws - INFO - ALGO/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,069 - freqtrade.exchange.exchange_ws - INFO - BTC/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,069 - freqtrade.exchange.exchange_ws - INFO - FTM/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,070 - freqtrade.exchange.exchange_ws - INFO - ARB/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,070 - freqtrade.exchange.exchange_ws - INFO - GRT/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,070 - freqtrade.exchange.exchange_ws - INFO - UNI/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,070 - freqtrade.exchange.exchange_ws - INFO - SOL/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,071 - freqtrade.exchange.exchange_ws - INFO - KAIA/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,071 - freqtrade.exchange.exchange_ws - INFO - ADA/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,071 - freqtrade.exchange.exchange_ws - INFO - WLD/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,071 - freqtrade.exchange.exchange_ws - INFO - STX/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,072 - freqtrade.exchange.exchange_ws - INFO - LTC/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,072 - freqtrade.exchange.exchange_ws - INFO - TIA/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,072 - freqtrade.exchange.exchange_ws - INFO - ATOM/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,072 - freqtrade.exchange.exchange_ws - INFO - WIF/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,072 - freqtrade.exchange.exchange_ws - INFO - FLOKI/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,073 - freqtrade.exchange.exchange_ws - INFO - OM/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,073 - freqtrade.exchange.exchange_ws - INFO - SHIB/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,073 - freqtrade.exchange.exchange_ws - INFO - XLM/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,073 - freqtrade.exchange.exchange_ws - INFO - INJ/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,074 - freqtrade.exchange.exchange_ws - INFO - FIL/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,074 - freqtrade.exchange.exchange_ws - INFO - TRX/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,074 - freqtrade.exchange.exchange_ws - INFO - PEPE/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,074 - freqtrade.exchange.exchange_ws - INFO - LINK/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,075 - freqtrade.exchange.exchange_ws - INFO - FET/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,075 - freqtrade.exchange.exchange_ws - INFO - ETC/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,075 - freqtrade.exchange.exchange_ws - INFO - XTZ/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,075 - freqtrade.exchange.exchange_ws - INFO - HBAR/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,076 - freqtrade.exchange.exchange_ws - INFO - XRP/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,076 - freqtrade.exchange.exchange_ws - INFO - NEAR/USDT, 1m, spot - Task finished - cancelled
+2024-12-03 00:07:51,717 - freqtrade - INFO - SIGINT received, aborting ...
+2024-12-06 01:20:28,248 - freqtrade.loggers - INFO - Verbosity set to 0
+2024-12-06 01:20:28,248 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2024-12-06 01:20:28,249 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2024-12-06 01:20:28,249 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2024-12-06 01:20:28,249 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2024-12-06 01:20:28,250 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 20 ...
+2024-12-06 01:20:28,739 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2024-12-06 01:20:28,741 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2024-12-06 01:20:28,742 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2024-12-06 01:20:28,752 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2024-12-06 01:20:28,753 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2024-12-06 01:20:29,008 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy adx_opt_strat from '/freqtrade/user_data/strategies/adx_opt_strat.py'...
+2024-12-06 01:20:29,009 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2024-12-06 01:20:29,009 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2024-12-06 01:20:29,010 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2024-12-06 01:20:29,010 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2024-12-06 01:20:29,010 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 20.
+2024-12-06 01:20:29,011 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.0692, '7': 0.02682, '10': 0.00771, '32': 0}
+2024-12-06 01:20:29,011 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 1m
+2024-12-06 01:20:29,011 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.32766
+2024-12-06 01:20:29,012 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: True
+2024-12-06 01:20:29,012 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive: 0.32634
+2024-12-06 01:20:29,012 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.34487
+2024-12-06 01:20:29,013 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: True
+2024-12-06 01:20:29,013 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2024-12-06 01:20:29,013 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2024-12-06 01:20:29,014 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2024-12-06 01:20:29,014 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2024-12-06 01:20:29,014 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2024-12-06 01:20:29,014 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2024-12-06 01:20:29,015 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2024-12-06 01:20:29,015 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2024-12-06 01:20:29,015 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2024-12-06 01:20:29,015 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2024-12-06 01:20:29,016 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2024-12-06 01:20:29,016 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2024-12-06 01:20:29,016 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2024-12-06 01:20:29,016 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2024-12-06 01:20:29,017 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2024-12-06 01:20:29,017 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2024-12-06 01:20:29,017 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 20
+2024-12-06 01:20:29,018 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2024-12-06 01:20:29,020 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2024-12-06 01:20:29,021 - freqtrade.exchange.exchange - INFO - Using CCXT 4.4.33
+2024-12-06 01:20:29,049 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2024-12-06 01:20:31,399 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2024-12-06 01:20:31,711 - freqtrade.wallets - INFO - Wallets synced.
+2024-12-06 01:20:31,797 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2024-12-06 01:20:32,022 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2024-12-06 01:20:32,022 - freqtrade.rpc.api_server.webserver - WARNING - SECURITY WARNING - `jwt_secret_key` seems to be default.Others may be able to log into your bot.
+2024-12-06 01:20:32,023 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2024-12-06 01:20:32,051 - uvicorn.error - INFO - Started server process [1]
+2024-12-06 01:20:32,051 - uvicorn.error - INFO - Waiting for application startup.
+2024-12-06 01:20:32,052 - uvicorn.error - INFO - Application startup complete.
+2024-12-06 01:20:32,052 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+2024-12-06 01:20:32,065 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2024-12-06 01:20:32,218 - freqtrade.plugins.pairlistmanager - WARNING - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2024-12-06 01:20:32,219 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 49 pairs: ['BTC/USDT', 'ETH/USDT', 'XRP/USDT', 'SOL/USDT', 'DOGE/USDT', 'ADA/USDT', 'AVAX/USDT', 'TRX/USDT', 'SHIB/USDT', 'TON/USDT', 'XLM/USDT', 'LINK/USDT', 'DOT/USDT', 'HBAR/USDT', 'BCH/USDT', 'SUI/USDT', 'LTC/USDT', 'PEPE/USDT', 'UNI/USDT', 'NEAR/USDT', 'APT/USDT', 'ICP/USDT', 'POL/USDT', 'ETC/USDT', 'ALGO/USDT', 'FIL/USDT', 'RENDER/USDT', 'FET/USDT', 'ARB/USDT', 'ATOM/USDT', 'AAVE/USDT', 'STX/USDT', 'IMX/USDT', 'OM/USDT', 'TIA/USDT', 'BONK/USDT', 'OP/USDT', 'WIF/USDT', 'INJ/USDT', 'THETA/USDT', 'FTM/USDT', 'GRT/USDT', 'WLD/USDT', 'FLOKI/USDT', 'KAIA/USDT', 'PYTH/USDT', 'EOS/USDT', 'XTZ/USDT', 'MKR/USDT']
+2024-12-06 01:20:32,219 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2024-12-06 01:20:32,220 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2024-12-06 01:20:32,220 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2024-12-06 01:20:32,221 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2024-12-06 01:20:32,221 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2024-12-06 01:20:32,222 - freqtrade.worker - INFO - Changing state to: RUNNING
+2024-12-06 01:20:32,244 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2024-12-06 01:20:32,244 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'0': 0.0692, '7': 0.02682, '10': 0.00771, '32': 0}`\n*Trailing Stoploss:* `-0.32766`\n*Position adjustment:* `Off`\n*Timeframe:* `1m`\n*Strategy:* `adx_opt_strat`"}
+2024-12-06 01:20:32,244 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2024-12-06 01:20:37,248 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='docker-2024.11-dev-f31b26b1', state='RUNNING'
+2024-12-06 01:21:30,852 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2024-12-06 01:21:30,853 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2024-12-06 01:21:30,853 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2024-12-06 01:21:30,854 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2024-12-06 01:21:30,855 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2024-12-06 01:21:30,855 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2024-12-06 01:21:30,950 - uvicorn.error - INFO - Shutting down
+2024-12-06 01:21:31,055 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-12-06 01:21:31,055 - uvicorn.error - INFO - Application shutdown complete.
+2024-12-06 01:21:31,056 - uvicorn.error - INFO - Finished server process [1]
+2024-12-06 01:21:31,057 - freqtrade.exchange.exchange_ws - INFO - Resetting WS connections.
+2024-12-06 01:21:31,058 - freqtrade.exchange.exchange_ws - INFO - ATOM/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,058 - freqtrade.exchange.exchange_ws - INFO - ARB/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,058 - freqtrade.exchange.exchange_ws - INFO - SOL/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,059 - freqtrade.exchange.exchange_ws - INFO - SUI/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,059 - freqtrade.exchange.exchange_ws - INFO - OP/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,060 - freqtrade.exchange.exchange_ws - INFO - ETH/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,060 - freqtrade.exchange.exchange_ws - INFO - TON/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,060 - freqtrade.exchange.exchange_ws - INFO - ALGO/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,061 - freqtrade.exchange.exchange_ws - INFO - OM/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,061 - freqtrade.exchange.exchange_ws - INFO - XTZ/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,062 - freqtrade.exchange.exchange_ws - INFO - EOS/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,062 - freqtrade.exchange.exchange_ws - INFO - XLM/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,062 - freqtrade.exchange.exchange_ws - INFO - BONK/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,063 - freqtrade.exchange.exchange_ws - INFO - FET/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,063 - freqtrade.exchange.exchange_ws - INFO - GRT/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,063 - freqtrade.exchange.exchange_ws - INFO - WIF/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,064 - freqtrade.exchange.exchange_ws - INFO - WLD/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,064 - freqtrade.exchange.exchange_ws - INFO - AVAX/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,064 - freqtrade.exchange.exchange_ws - INFO - POL/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,065 - freqtrade.exchange.exchange_ws - INFO - BCH/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,065 - freqtrade.exchange.exchange_ws - INFO - IMX/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,065 - freqtrade.exchange.exchange_ws - INFO - THETA/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,066 - freqtrade.exchange.exchange_ws - INFO - LINK/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,066 - freqtrade.exchange.exchange_ws - INFO - ADA/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,066 - freqtrade.exchange.exchange_ws - INFO - PYTH/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,067 - freqtrade.exchange.exchange_ws - INFO - UNI/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,067 - freqtrade.exchange.exchange_ws - INFO - TIA/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,067 - freqtrade.exchange.exchange_ws - INFO - ETC/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,067 - freqtrade.exchange.exchange_ws - INFO - NEAR/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,068 - freqtrade.exchange.exchange_ws - INFO - LTC/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,068 - freqtrade.exchange.exchange_ws - INFO - XRP/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,068 - freqtrade.exchange.exchange_ws - INFO - AAVE/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,068 - freqtrade.exchange.exchange_ws - INFO - DOGE/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,069 - freqtrade.exchange.exchange_ws - INFO - INJ/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,069 - freqtrade.exchange.exchange_ws - INFO - HBAR/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,069 - freqtrade.exchange.exchange_ws - INFO - ICP/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,070 - freqtrade.exchange.exchange_ws - INFO - RENDER/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,070 - freqtrade.exchange.exchange_ws - INFO - STX/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,070 - freqtrade.exchange.exchange_ws - INFO - PEPE/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,070 - freqtrade.exchange.exchange_ws - INFO - FTM/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,071 - freqtrade.exchange.exchange_ws - INFO - FLOKI/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,071 - freqtrade.exchange.exchange_ws - INFO - SHIB/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,071 - freqtrade.exchange.exchange_ws - INFO - KAIA/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,072 - freqtrade.exchange.exchange_ws - INFO - FIL/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,072 - freqtrade.exchange.exchange_ws - INFO - APT/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,072 - freqtrade.exchange.exchange_ws - INFO - BTC/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,072 - freqtrade.exchange.exchange_ws - INFO - MKR/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,073 - freqtrade.exchange.exchange_ws - INFO - DOT/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,073 - freqtrade.exchange.exchange_ws - INFO - TRX/USDT, 1m, spot - Task finished - cancelled
+2024-12-06 01:21:31,728 - freqtrade - INFO - SIGINT received, aborting ...

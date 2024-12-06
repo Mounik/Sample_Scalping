@@ -7,6 +7,15 @@
 ### AverageStrategy - timeframe 4h  
 ![AverageStrategy](/img/AverageStrategy.png)  
 
-> [!TODO]  
-> [ ] adaptive  
-> [ ] ADX_15M_USDT  
+### A revoir
+- [ ] adaptive  
+- [ ] ADX_15M_USDT  
+- [ ] ADX_15M_USDT2  
+- [ ] adx_opt_strat  
+- [ ] ADXMomentum  
+- [ ] AdxSmas  
+- [ ] AlligatorStrat  
+- [ ] AlligatorStrategy  
+- [ ] AlwaysBuy  
+- [ ] Appolo11  
+- [ ] 

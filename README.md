@@ -5,7 +5,6 @@
 #### 20 trades max simultané
 ![ActionZone](/img/ActionZone2.png)
 
-
 ### AverageStrategy - timeframe 4h
 #### 10 trades max simultané
 ![AverageStrategy](/img/AverageStrategy.png)
@@ -18,7 +17,7 @@
 #### 20 trades max simultané
 ![AwesomeMacd](/img/AwesomeMacd2.png)
 
-### A revoir
+### A revoir ou a corriger (non fonctionnel ou strat moisie)
 - [ ] adaptive
 - [ ] ADX_15M_USDT
 - [ ] ADX_15M_USDT2

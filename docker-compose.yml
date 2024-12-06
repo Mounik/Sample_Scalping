@@ -33,9 +33,7 @@ services:
       --config user_data/config.json
       --timerange 20200511-20240420
       --timeframe 1h
-      --strategy AwesomeMacd
-
-
+      --strategy adaptive
 
 # # Pour importer les données
       # download-data
@@ -50,15 +48,15 @@ services:
       # --timeframe 1d
       # --strategy ActionZone
 
-# # Pour HyperOpt
-#       hyperopt
-#       --config /freqtrade/user_data/config.json
-#       --min-trade 400
-#       --timeframe 15m
-#       --hyperopt-loss MaxDrawDownHyperOptLoss
-#       --timerange 20200511-20240420
-#       --spaces buy sell stoploss trailing -j 8 -e 500
-#       --strategy adxbbrsi2
+# Pour HyperOpt
+      # hyperopt
+      # --config /freqtrade/user_data/config.json
+      # --min-trade 400
+      # --timeframe 15m
+      # --hyperopt-loss MaxDrawDownHyperOptLoss
+      # --timerange 20200511-20240420
+      # --spaces buy sell stoploss trailing -j 8 -e 500
+      # --strategy adxbbrsi2
 
 # # Pour lancer le trade
       # trade

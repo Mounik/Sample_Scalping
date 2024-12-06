@@ -32,8 +32,8 @@ services:
       backtesting
       --config user_data/config.json
       --timerange 20200511-20240420
-      --timeframe 4h
-      --strategy AverageStrategy
+      --timeframe 1h
+      --strategy AwesomeMacd
 
 
 
